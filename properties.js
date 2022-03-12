@@ -24,4 +24,7 @@ const pairs = Object.entries(bottle);
 delete bottle.isClean;
 // console.log(bottle);
 
-// 5.seal (can't delete property but can change )
+// 5.seal (can't delete property or include new but can change existing)
+Object.seal(bottle);
+bottle.price = 100;
+console.log(bottle);
