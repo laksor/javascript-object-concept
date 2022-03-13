@@ -25,4 +25,6 @@ const heroB = {
 // using call
 
 Kibria.treatDey.call(heroB, 500, 100, 50);
+
+// using apply (change is only use array inside apply)
 Kibria.treatDey.apply(heroB, [500, 400, 200]);
