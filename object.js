@@ -7,7 +7,7 @@ const student = {name: 'naimara', age: 55, add: 'komla-bazar'};
 
 const person = new Object();
 
-// 3. 
+// 3. object.create
 const human = Object.create(student);
 // const human = object.create(null);
 // console.log(human);
